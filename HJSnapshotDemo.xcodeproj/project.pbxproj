@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		D288A74120061D4000D66E3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D288A74020061D4000D66E3F /* AppDelegate.m */; };
 		D288A74420061D4100D66E3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D288A74320061D4100D66E3F /* ViewController.m */; };
-		D288A74720061D4100D66E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D288A74520061D4100D66E3F /* Main.storyboard */; };
 		D288A74920061D4100D66E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D288A74820061D4100D66E3F /* Assets.xcassets */; };
 		D288A74C20061D4100D66E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D288A74A20061D4100D66E3F /* LaunchScreen.storyboard */; };
 		D288A74F20061D4100D66E3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D288A74E20061D4100D66E3F /* main.m */; };
 		D288A75920061D4100D66E3F /* HJSnapshotDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D288A75820061D4100D66E3F /* HJSnapshotDemoTests.m */; };
 		D288A76420061D4100D66E3F /* HJSnapshotDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D288A76320061D4100D66E3F /* HJSnapshotDemoUITests.m */; };
+		D288A77720061E2E00D66E3F /* UIImage+HJSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D288A77620061E2E00D66E3F /* UIImage+HJSnapshot.m */; };
+		D288A77B2008536300D66E3F /* HJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D288A77A2008536300D66E3F /* HJTableViewCell.m */; };
+		D29B1BD82008644C00E37C21 /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D29B1BD42008644C00E37C21 /* 2.JPG */; };
+		D29B1BD92008644C00E37C21 /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D29B1BD52008644C00E37C21 /* 3.JPG */; };
+		D29B1BDA2008644C00E37C21 /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D29B1BD62008644C00E37C21 /* 1.JPG */; };
+		D29B1BDB2008644C00E37C21 /* 0.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D29B1BD72008644C00E37C21 /* 0.JPG */; };
+		D29B1BDD2008675200E37C21 /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D29B1BDC2008675200E37C21 /* 4.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,6 @@
 		D288A74020061D4000D66E3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D288A74220061D4100D66E3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D288A74320061D4100D66E3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D288A74620061D4100D66E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D288A74820061D4100D66E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D288A74B20061D4100D66E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D288A74D20061D4100D66E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,17 @@
 		D288A75F20061D4100D66E3F /* HJSnapshotDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJSnapshotDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D288A76320061D4100D66E3F /* HJSnapshotDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJSnapshotDemoUITests.m; sourceTree = "<group>"; };
 		D288A76520061D4100D66E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D288A77520061E2E00D66E3F /* UIImage+HJSnapshot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HJSnapshot.h"; sourceTree = "<group>"; };
+		D288A77620061E2E00D66E3F /* UIImage+HJSnapshot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HJSnapshot.m"; sourceTree = "<group>"; };
+		D288A7792008536300D66E3F /* HJTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTableViewCell.h; sourceTree = "<group>"; };
+		D288A77A2008536300D66E3F /* HJTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTableViewCell.m; sourceTree = "<group>"; };
+		D288A77C2008542600D66E3F /* HJDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJDefines.h; sourceTree = "<group>"; };
+		D29B1BD42008644C00E37C21 /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
+		D29B1BD52008644C00E37C21 /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
+		D29B1BD62008644C00E37C21 /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
+		D29B1BD72008644C00E37C21 /* 0.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.JPG; sourceTree = "<group>"; };
+		D29B1BDC2008675200E37C21 /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
+		D29B1BDE200867E400E37C21 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +117,15 @@
 		D288A73E20061D4000D66E3F /* HJSnapshotDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D288A77120061DB400D66E3F /* mainClass */,
+				D29B1BD32008644C00E37C21 /* Resources */,
 				D288A73F20061D4000D66E3F /* AppDelegate.h */,
 				D288A74020061D4000D66E3F /* AppDelegate.m */,
 				D288A74220061D4100D66E3F /* ViewController.h */,
 				D288A74320061D4100D66E3F /* ViewController.m */,
-				D288A74520061D4100D66E3F /* Main.storyboard */,
+				D288A7792008536300D66E3F /* HJTableViewCell.h */,
+				D288A77A2008536300D66E3F /* HJTableViewCell.m */,
+				D29B1BDE200867E400E37C21 /* PrefixHeader.pch */,
 				D288A74820061D4100D66E3F /* Assets.xcassets */,
 				D288A74A20061D4100D66E3F /* LaunchScreen.storyboard */,
 				D288A74D20061D4100D66E3F /* Info.plist */,
@@ -130,6 +150,28 @@
 				D288A76520061D4100D66E3F /* Info.plist */,
 			);
 			path = HJSnapshotDemoUITests;
+			sourceTree = "<group>";
+		};
+		D288A77120061DB400D66E3F /* mainClass */ = {
+			isa = PBXGroup;
+			children = (
+				D288A77520061E2E00D66E3F /* UIImage+HJSnapshot.h */,
+				D288A77620061E2E00D66E3F /* UIImage+HJSnapshot.m */,
+				D288A77C2008542600D66E3F /* HJDefines.h */,
+			);
+			path = mainClass;
+			sourceTree = "<group>";
+		};
+		D29B1BD32008644C00E37C21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D29B1BD42008644C00E37C21 /* 2.JPG */,
+				D29B1BDC2008675200E37C21 /* 4.JPG */,
+				D29B1BD52008644C00E37C21 /* 3.JPG */,
+				D29B1BD62008644C00E37C21 /* 1.JPG */,
+				D29B1BD72008644C00E37C21 /* 0.JPG */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +280,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D29B1BDB2008644C00E37C21 /* 0.JPG in Resources */,
+				D29B1BD82008644C00E37C21 /* 2.JPG in Resources */,
 				D288A74C20061D4100D66E3F /* LaunchScreen.storyboard in Resources */,
+				D29B1BDA2008644C00E37C21 /* 1.JPG in Resources */,
+				D29B1BDD2008675200E37C21 /* 4.JPG in Resources */,
 				D288A74920061D4100D66E3F /* Assets.xcassets in Resources */,
-				D288A74720061D4100D66E3F /* Main.storyboard in Resources */,
+				D29B1BD92008644C00E37C21 /* 3.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +312,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D288A74420061D4100D66E3F /* ViewController.m in Sources */,
+				D288A77720061E2E00D66E3F /* UIImage+HJSnapshot.m in Sources */,
 				D288A74F20061D4100D66E3F /* main.m in Sources */,
 				D288A74120061D4000D66E3F /* AppDelegate.m in Sources */,
+				D288A77B2008536300D66E3F /* HJTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +351,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D288A74520061D4100D66E3F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D288A74620061D4100D66E3F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D288A74A20061D4100D66E3F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,7 +472,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PZMTS6D3B;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = HJSnapshotDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJSnapshotDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +489,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PZMTS6D3B;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = HJSnapshotDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.psl.whj.HJSnapshotDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
